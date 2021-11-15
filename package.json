@@ -4,16 +4,17 @@
   "description": "Sample Redux Application",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --progress"
+    "start": "webpack-dev-server --hot --progress  --port 8181"
   },
   "author": "Boris Dinkevich & Ilya Gelman",
   "license": "MIT",
   "dependencies": {
-    "jquery": "3.2.1",
-    "redux": "3.7.2"
+    "jquery": "3.6.0",
+    "redux": "4.1.2"
   },
   "devDependencies": {
-    "webpack": "3.10.0",
-    "webpack-dev-server": "2.9.7"
+    "webpack": "5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "4.5.0"
   }
 }
